@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+     <title>Deck Card Game</title>
+
+    <link rel="stylesheet" type="text/css" media="all" href="css/playingCards.ui.css"/>
+
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/playingCards.js"></script>
+<script type="text/javascript" src="js/playingCards.ui.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1> Deck Game Play Cards</h1>
+
+    </header>
+    <div class='btns'>  
+        <div id="error"></div>
+        <input type="button" class ="button" id="showcards" value="showcards" /> 
+        <input type="button" id="hide" value="hide" />
+        <input type="button" id="shuffler" value="shuffle" />
+        <input type="button" id="draw" value="draw a card" />
+        <input type="button" id="addCard" value="add drawn card back" />
+        <input type="button" id="shuffleDraw" value="shuffle, then draw" />
+        <input type="button" id="orderByRank" value="order by rank" />
+        <input type="button" id="orderBySuit" value="order by suit" />
+        <h2>Display Cards</h2>
+    </div>
+
+<div class='main_content'>
+    <div class='leftside'>
+     <div id="cardDeck"></div>
+</div>
+    
+    <div class='rightside'>
+        <h2>Drawn Cards</h2>
+     <div id="yourHand"></div>
+</div>
+</div>
+   
+</body>
+</html>
+˝
